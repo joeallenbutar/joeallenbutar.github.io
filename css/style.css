@@ -146,7 +146,7 @@ a {
   overflow: hidden; }
   .site-hero, .site-hero .row {
     height: 100vh;
-    min-height: 800px; }
+    min-height: 600px; }
   .site-hero:before {
     content: "";
     position: absolute;
@@ -605,4 +605,23 @@ a {
   .block-47 .block-47-quote .block-47-quote-author {
     font-size: 14px;
     color: #666666; }
+
+#home {
+  background: url(../images/background.jpg) no-repeat center center;
+  -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+  background-color: #222;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+}
+#home:before {
+  content: "";
+  background-color: rgba(26, 30, 35, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 }
